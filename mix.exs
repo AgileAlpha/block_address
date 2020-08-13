@@ -42,7 +42,8 @@ defmodule BlockAddress.MixProject do
     [
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:keccakf1600, "~> 2.0", hex: :keccakf1600_orig},
-      {:excoveralls, "~> 0.10", only: :test}
+      {:excoveralls, "~> 0.10", only: :test},
+      {:block_base58, "~> 0.1.0"}
     ]
   end
 end

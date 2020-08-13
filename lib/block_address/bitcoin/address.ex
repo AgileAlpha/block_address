@@ -1,9 +1,9 @@
-defmodule BlockKeys.Bitcoin.Address do
+defmodule BlockAddress.Bitcoin.Address do
   @moduledoc """
   Converts a public extended key into a Bitcoin Address
   """
 
-  alias BlockKeys.{Crypto, Encoding}
+  alias BlockAddress.{Crypto, Encoding}
 
   def from_xpub(xpub) do
     xpub
